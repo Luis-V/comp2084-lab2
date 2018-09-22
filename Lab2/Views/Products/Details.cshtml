@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Product";
+}
+
+<h2>Product details</h2>
+<p>@(
+        (string.IsNullOrEmpty(ViewBag.ProductMessage)) ? 
+        "Products can be viewed in the products section." : 
+        ViewBag.ProductMessage
+        )
+    </p>
+
